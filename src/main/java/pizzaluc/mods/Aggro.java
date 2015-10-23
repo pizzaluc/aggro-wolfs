@@ -22,7 +22,7 @@ public class Aggro {
 	
 	
 	
-	public static Item ItemWarpRemover;
+
 	private int SpawnRateConfig;
 	private int MinumumPack;
 	private int MaxPack;
@@ -37,8 +37,7 @@ public class Aggro {
 		//config handling
 		
 		
-		
-		 Configuration config = new Configuration(event.getSuggestedConfigurationFile());
+	Configuration config = new Configuration(event.getSuggestedConfigurationFile());
 
          config.load();
 
@@ -48,13 +47,11 @@ public class Aggro {
          
          MaxPack = config.getInt("MaxPack", "wolves", 5, 0, 100, "The maximum number who spawn toghether");
          
-        // Day_or_Night = config.getInt("DayorNight", "wolves", 1, 0, 2, "Choose between: 0,1,2 which equals to Day,night,Day and Night");
+        
 
          config.save();
         
-        // for(int i = 0;i<100;i++){
-        // System.out.println(Day_or_Night);
-        // }
+       
      
          
          
@@ -95,7 +92,7 @@ public class Aggro {
 					BiomeGenBase.savannaPlateau, BiomeGenBase.taigaHills, BiomeGenBase.taiga, BiomeGenBase.swampland, BiomeGenBase.stoneBeach,
 					BiomeGenBase.roofedForest, BiomeGenBase.mesaPlateau_F, BiomeGenBase.mesaPlateau, BiomeGenBase.mesa, 
 					BiomeGenBase.megaTaigaHills, BiomeGenBase.megaTaiga, BiomeGenBase.jungle);
-	     //System.out.println("monster");
+	     
 	   
 	     
 	     
