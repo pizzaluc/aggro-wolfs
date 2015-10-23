@@ -1,0 +1,16 @@
+[
+{
+  "modid": "aw",
+  "name": "Aggro Wolves",
+  "description": "Makes Wolves auto aggro.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["pizzaluc"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
